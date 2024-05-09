@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>WinFormsApp21</id>
+    <version>1.0.0</version>
+    <authors>WinFormsApp21</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0-windows7.0">
+        <dependency id="MySql.Data" version="8.1.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net6.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="C:\Users\p_k12\source\repos\WinFormsApp21\WinFormsApp21\bin\Debug\net6.0-windows\WinFormsApp21.runtimeconfig.json" target="lib\net6.0-windows7.0\WinFormsApp21.runtimeconfig.json" />
+    <file src="C:\Users\p_k12\source\repos\WinFormsApp21\WinFormsApp21\bin\Debug\net6.0-windows\WinFormsApp21.dll" target="lib\net6.0-windows7.0\WinFormsApp21.dll" />
+  </files>
+</package>
